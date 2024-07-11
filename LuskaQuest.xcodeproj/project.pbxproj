@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6A0172328BABA4400E38D43 /* LuskaQuestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A0171328BABA4300E38D43 /* LuskaQuestApp.swift */; };
+		E6A0172528BABA4400E38D43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A0171428BABA4300E38D43 /* ContentView.swift */; };
+		E6A0172728BABA4400E38D43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6A0171528BABA4400E38D43 /* Assets.xcassets */; };
+		E6A0173228BAFA6D00E38D43 /* TopBattleBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A0173128BAFA6D00E38D43 /* TopBattleBarView.swift */; };
+		E6A0173528BB2CA200E38D43 /* BattleTopDetailBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A0173428BB2CA200E38D43 /* BattleTopDetailBarView.swift */; };
+		E6A0173828BB3BAF00E38D43 /* StateMenuButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A0173728BB3BAF00E38D43 /* StateMenuButtonView.swift */; };
+		E6A0173C28BB467600E38D43 /* BottomBattleBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A0173B28BB467600E38D43 /* BottomBattleBarView.swift */; };
+		E6A0174328BC0D0400E38D43 /* SceneBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A0174228BC0D0400E38D43 /* SceneBackgroundView.swift */; };
+		E6A0174628BC0D6500E38D43 /* ExpandLeftMenuButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A0174528BC0D6500E38D43 /* ExpandLeftMenuButtonView.swift */; };
+		E6A0174928BC0DBA00E38D43 /* ExpandTopMenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A0174828BC0DBA00E38D43 /* ExpandTopMenuBar.swift */; };
+		E6A0174C28BC0DDD00E38D43 /* ExpandBottomMenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A0174B28BC0DDD00E38D43 /* ExpandBottomMenuBar.swift */; };
+		E6A0174F28BC0E2300E38D43 /* ExpandRightMenuButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A0174E28BC0E2300E38D43 /* ExpandRightMenuButtonView.swift */; };
+		E6A0175228BC0E4300E38D43 /* PlayerButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A0175128BC0E4300E38D43 /* PlayerButtonView.swift */; };
+		E6A0175528BC0E6700E38D43 /* MonsterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A0175428BC0E6700E38D43 /* MonsterButtonView.swift */; };
+		E6A0175828BC0EA500E38D43 /* BattleCompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A0175728BC0EA500E38D43 /* BattleCompleteView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E6A0171328BABA4300E38D43 /* LuskaQuestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuskaQuestApp.swift; sourceTree = "<group>"; };
+		E6A0171428BABA4300E38D43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E6A0171528BABA4400E38D43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6A0171A28BABA4400E38D43 /* LuskaQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuskaQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6A0172228BABA4400E38D43 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		E6A0173128BAFA6D00E38D43 /* TopBattleBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBattleBarView.swift; sourceTree = "<group>"; };
+		E6A0173428BB2CA200E38D43 /* BattleTopDetailBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleTopDetailBarView.swift; sourceTree = "<group>"; };
+		E6A0173728BB3BAF00E38D43 /* StateMenuButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateMenuButtonView.swift; sourceTree = "<group>"; };
+		E6A0173B28BB467600E38D43 /* BottomBattleBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBattleBarView.swift; sourceTree = "<group>"; };
+		E6A0174228BC0D0400E38D43 /* SceneBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneBackgroundView.swift; sourceTree = "<group>"; };
+		E6A0174528BC0D6500E38D43 /* ExpandLeftMenuButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandLeftMenuButtonView.swift; sourceTree = "<group>"; };
+		E6A0174828BC0DBA00E38D43 /* ExpandTopMenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandTopMenuBar.swift; sourceTree = "<group>"; };
+		E6A0174B28BC0DDD00E38D43 /* ExpandBottomMenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandBottomMenuBar.swift; sourceTree = "<group>"; };
+		E6A0174E28BC0E2300E38D43 /* ExpandRightMenuButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandRightMenuButtonView.swift; sourceTree = "<group>"; };
+		E6A0175128BC0E4300E38D43 /* PlayerButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerButtonView.swift; sourceTree = "<group>"; };
+		E6A0175428BC0E6700E38D43 /* MonsterButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterButtonView.swift; sourceTree = "<group>"; };
+		E6A0175728BC0EA500E38D43 /* BattleCompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleCompleteView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6A0171728BABA4400E38D43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6A0170D28BABA4200E38D43 = {
+			isa = PBXGroup;
+			children = (
+				E6A0171228BABA4300E38D43 /* Shared */,
+				E6A0172128BABA4400E38D43 /* macOS */,
+				E6A0171B28BABA4400E38D43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6A0171228BABA4300E38D43 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E6A0173F28BC0C9C00E38D43 /* Skill */,
+				E6A0173E28BC0C8300E38D43 /* Battle */,
+				E6A0171328BABA4300E38D43 /* LuskaQuestApp.swift */,
+				E6A0171428BABA4300E38D43 /* ContentView.swift */,
+				E6A0171528BABA4400E38D43 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		E6A0171B28BABA4400E38D43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6A0171A28BABA4400E38D43 /* LuskaQuest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6A0172128BABA4400E38D43 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				E6A0172228BABA4400E38D43 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		E6A0173E28BC0C8300E38D43 /* Battle */ = {
+			isa = PBXGroup;
+			children = (
+				E6A0174028BC0CA800E38D43 /* Views */,
+			);
+			path = Battle;
+			sourceTree = "<group>";
+		};
+		E6A0173F28BC0C9C00E38D43 /* Skill */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Skill;
+			sourceTree = "<group>";
+		};
+		E6A0174028BC0CA800E38D43 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E6A0174128BC0CB000E38D43 /* Menu Elements */,
+				E6A0175728BC0EA500E38D43 /* BattleCompleteView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E6A0174128BC0CB000E38D43 /* Menu Elements */ = {
+			isa = PBXGroup;
+			children = (
+				E6A0173728BB3BAF00E38D43 /* StateMenuButtonView.swift */,
+				E6A0174228BC0D0400E38D43 /* SceneBackgroundView.swift */,
+				E6A0173428BB2CA200E38D43 /* BattleTopDetailBarView.swift */,
+				E6A0173B28BB467600E38D43 /* BottomBattleBarView.swift */,
+				E6A0173128BAFA6D00E38D43 /* TopBattleBarView.swift */,
+				E6A0175A28BC103B00E38D43 /* Menu Buttons */,
+				E6A0175B28BC105900E38D43 /* Main Buttons */,
+			);
+			path = "Menu Elements";
+			sourceTree = "<group>";
+		};
+		E6A0175A28BC103B00E38D43 /* Menu Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				E6A0174B28BC0DDD00E38D43 /* ExpandBottomMenuBar.swift */,
+				E6A0174828BC0DBA00E38D43 /* ExpandTopMenuBar.swift */,
+				E6A0174528BC0D6500E38D43 /* ExpandLeftMenuButtonView.swift */,
+				E6A0174E28BC0E2300E38D43 /* ExpandRightMenuButtonView.swift */,
+			);
+			path = "Menu Buttons";
+			sourceTree = "<group>";
+		};
+		E6A0175B28BC105900E38D43 /* Main Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				E6A0175128BC0E4300E38D43 /* PlayerButtonView.swift */,
+				E6A0175428BC0E6700E38D43 /* MonsterButtonView.swift */,
+			);
+			path = "Main Buttons";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6A0171928BABA4400E38D43 /* LuskaQuest (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6A0172B28BABA4400E38D43 /* Build configuration list for PBXNativeTarget "LuskaQuest (iOS)" */;
+			buildPhases = (
+				E6A0171628BABA4400E38D43 /* Sources */,
+				E6A0171728BABA4400E38D43 /* Frameworks */,
+				E6A0171828BABA4400E38D43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LuskaQuest (iOS)";
+			productName = "LuskaQuest (iOS)";
+			productReference = E6A0171A28BABA4400E38D43 /* LuskaQuest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6A0170E28BABA4200E38D43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					E6A0171928BABA4400E38D43 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = E6A0171128BABA4200E38D43 /* Build configuration list for PBXProject "LuskaQuest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6A0170D28BABA4200E38D43;
+			productRefGroup = E6A0171B28BABA4400E38D43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6A0171928BABA4400E38D43 /* LuskaQuest (iOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6A0171828BABA4400E38D43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6A0172728BABA4400E38D43 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6A0171628BABA4400E38D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6A0175528BC0E6700E38D43 /* MonsterButtonView.swift in Sources */,
+				E6A0172528BABA4400E38D43 /* ContentView.swift in Sources */,
+				E6A0174928BC0DBA00E38D43 /* ExpandTopMenuBar.swift in Sources */,
+				E6A0174328BC0D0400E38D43 /* SceneBackgroundView.swift in Sources */,
+				E6A0174C28BC0DDD00E38D43 /* ExpandBottomMenuBar.swift in Sources */,
+				E6A0174628BC0D6500E38D43 /* ExpandLeftMenuButtonView.swift in Sources */,
+				E6A0175228BC0E4300E38D43 /* PlayerButtonView.swift in Sources */,
+				E6A0175828BC0EA500E38D43 /* BattleCompleteView.swift in Sources */,
+				E6A0173528BB2CA200E38D43 /* BattleTopDetailBarView.swift in Sources */,
+				E6A0173828BB3BAF00E38D43 /* StateMenuButtonView.swift in Sources */,
+				E6A0174F28BC0E2300E38D43 /* ExpandRightMenuButtonView.swift in Sources */,
+				E6A0173C28BB467600E38D43 /* BottomBattleBarView.swift in Sources */,
+				E6A0172328BABA4400E38D43 /* LuskaQuestApp.swift in Sources */,
+				E6A0173228BAFA6D00E38D43 /* TopBattleBarView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E6A0172928BABA4400E38D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6A0172A28BABA4400E38D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E6A0172C28BABA4400E38D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 987J4BXX78;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LucasCB.LuskaQuest;
+				PRODUCT_NAME = LuskaQuest;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6A0172D28BABA4400E38D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 987J4BXX78;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LucasCB.LuskaQuest;
+				PRODUCT_NAME = LuskaQuest;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6A0171128BABA4200E38D43 /* Build configuration list for PBXProject "LuskaQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6A0172928BABA4400E38D43 /* Debug */,
+				E6A0172A28BABA4400E38D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6A0172B28BABA4400E38D43 /* Build configuration list for PBXNativeTarget "LuskaQuest (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6A0172C28BABA4400E38D43 /* Debug */,
+				E6A0172D28BABA4400E38D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6A0170E28BABA4200E38D43 /* Project object */;
+}
